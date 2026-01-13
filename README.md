@@ -53,7 +53,7 @@ Aplicația utilizează o arhitectură de tip **Client-Server**, bazată pe un mo
 ## Instalare și Configurare:
 * **Baza de date:** Importă fișierul rmogildea_proiect.sql în serverul tău MySQL (phpMyAdmin).
 * **Conexiune:** Editează fișierul db.php cu datele tale de conectare (localhost, user, parolă).
-* **Configurare Mail:** Setările SMTP se realizează în contact.php și în folderul mail/ sau în fișierul de configurare dedicat.
+* **Configurare Mail:** Setările SMTP se realizează în mai_config.php din folderul mail, respectiv se pot modifica date și în fișierul contact.php.
 * **Permisiuni:** Asigură-te că fișierele .txt au permisiuni de scriere pentru funcționarea sistemului de analytics.
 ## Structura Proiectului
 ```text
