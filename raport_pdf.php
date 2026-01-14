@@ -3,6 +3,11 @@
 require('libs/fpdf.php'); 
 include 'db.php'; 
 
+// Accesul la rapoartele financiare este restricționat strict categoriei de utilizator admin
+if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'admin') {
+    die("Acces refuzat! Doar administratorii pot vedea rapoartele financiare.");
+}
+
 // Funcție pentru eliminarea diacriticelor care blochează FPDF
 // Fără această curățare, coloanele cu nume sau proiecte care conțin diacritice apar goale.
 function curata_pt_pdf($text) {
