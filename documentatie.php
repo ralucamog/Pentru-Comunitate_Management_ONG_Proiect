@@ -96,7 +96,7 @@ include 'header.php';
         <h3>Securitate Implementată:</h3>
         <ul>
             <li><strong>SQL Injection:</strong> Utilizarea exclusivă a <code>Prepared Statements</code>.</li>
-            <li><strong>XSS & Data Validation:</strong> Escapare output cu <code>htmlspecialchars()</code> și filtrare emailuri.</li>
+            <li><strong>XSS & Data Validation:</strong> Output Escaping cu <code>htmlspecialchars()</code> și filtrare emailuri.</li>
             <li><strong>Auth & Securitate:</strong> Parole criptate cu <code>password_hash()</code> și redirecționări securizate după acțiuni.</li>
             <li><strong>Protecție Formulare:</strong> Mecanism CAPTCHA matematic dinamic.</li>
         </ul>
