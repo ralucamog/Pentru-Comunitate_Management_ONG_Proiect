@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Includem biblioteca și conexiunea la baza de date
 require('libs/fpdf.php'); 
 include 'db.php'; 
