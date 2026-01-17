@@ -14,7 +14,7 @@ Aplicația utilizează o arhitectură de tip **Client-Server**, bazată pe un mo
 
 * **Sistem de Autentificare:** Acces diferențiat pe bază de roluri (**Administrator** vs. **Voluntar**).
 * **Gestiune CRUD:** Interfață completă pentru adăugarea, editarea și ștergerea proiectelor sociale.
-* **Rapoarte Automate:** Generare de fișiere **CSV** pentru proiecte și donații, optimizate cu **UTF-8 BOM** pentru afișarea corectă a diacriticelor în Excel.
+* **Rapoarte Automate:** Generare de fișiere **CSV** pentru proiecte și donații, optimizate cu **UTF-8 BOM** pentru afișarea corectă a diacriticelor în Excel. În plus se pot descărca și fișiere **PDF** pentru donații.
 
 ## Tehnologii Utilizate
 
